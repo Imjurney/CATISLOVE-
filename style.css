@@ -47,7 +47,7 @@ body{
   box-sizing: border-box;
   transition: transform .1s, background-color .9s;
   overflow: hidden;
-}git push --forcegit push --force
+}
 .door:hover {
   transform: skewX(-14deg) scale(1.4);
   border: 3px solid #4831D4 ;
