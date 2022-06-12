@@ -1,0 +1,123 @@
+@font-face {
+  font-family: '양진체';
+  src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+/* 다크모드 */
+
+body{
+ background-color: #CCF381;
+}
+.container {
+  padding:  50px 0;
+
+}
+
+.btn-box >.btn {
+  float: right;
+  margin: 10px 10px;
+}
+
+.doors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 660px;
+  /* background-color: orange; */
+  margin: 0 auto;
+  padding: 40px 20px;
+  position: relative;
+}
+
+.door{
+  width: 80px;
+  height: 84px;
+  margin: 4px;
+  background-color: darkgrey;
+  border: 3px solid #fff;
+  transform: skewX(-14deg);
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: transform .1s, background-color .9s;
+  overflow: hidden;
+}
+.door:hover {
+  transform: skewX(-14deg) scale(1.4);
+  border: 3px solid #4831D4 ;
+  z-index: 1;
+}
+.door .image{
+  width: 130%;
+  height: 100%;
+  background-size: cover;
+  transform: translateX(-11px) skewX(14deg);
+  background-position: center;
+}
+.door:nth-child(1) .image {
+  background-image: url(./img/네일관리.jpeg);
+}
+.door:nth-child(2) .image {
+  background-image: url(./img/옹1.jpeg);
+}
+.door:nth-child(3) .image {
+  background-image: url(./img/지켜본다.jpeg);
+}
+.door:nth-child(4) .image {
+  background-image: url(./img/극락.jpeg);
+}
+.door:nth-child(5) .image {
+  background-image: url(./img/쩍벌.jpeg);
+}
+.door:nth-child(6) .image {
+  background-image: url(./img/옹2.jpeg);
+}
+.door:nth-child(7) .image {
+  background-image: url(./img/토냥이.jpeg);
+}
+.door:nth-child(8) .image {
+  background-image: url(./img/옹3.jpeg);
+}
+
+.door:nth-child(9) .image {
+  background-image: url(./img/옹4.jpeg);
+}
+
+.door:nth-child(10) .image {
+  background-image: url(./img/옹5.jpeg);
+}
+
+.door:nth-child(11) .image {
+  background-image: url(./img/6.jpeg);
+}
+.door:nth-child(12) .image {
+  background-image: url(./img/장바구니.jpeg);
+}
+
+ h1 {
+    font-family: '양진체';
+    font-size: 25px;
+    font-weight: bold;
+    color: #4831D4;
+    text-shadow: 2px 2px darkgray;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+h3.sub {
+  font-size: 15px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: gray;
+  line-height: 2em;
+}
